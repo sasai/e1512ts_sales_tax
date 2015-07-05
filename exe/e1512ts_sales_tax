@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "e1512ts_sales_tax"
+
+puts E1512tsSalesTax.pay(ARGV[0])
